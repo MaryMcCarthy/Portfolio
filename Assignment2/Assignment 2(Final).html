@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+
+    <link href="css/custom.css" rel="stylesheet">
+
+        <style>
+                 body{
+                    background-color:lightblue;
+                
+                }
+                .jumbotron{
+                    background-color: grey;
+                }
+                .center {
+                    display: block;
+                    
+                      margin-left: auto;
+                    }
+                    .btn-group button {
+                 background-color: rgb(175, 76, 145), 197, 168); 
+                    border: 1px;
+                 color: white; 
+                 padding: 10px 24px; 
+                 cursor: pointer; 
+                float: left; 
+                    }
+                    .boxed{
+                        background-color: grey;
+                        width: 300px;
+                        border: 15px solid silver;
+                         padding: 50px;
+                          margin: 20px;
+                        
+                    }
+                    .boxed2{
+                        background-color: grey;
+                        width: 400px;
+                        border: 15px solid silver;
+                         padding: 50px;
+                          margin: 20px;
+                          
+                    }
+                    table, th, td {
+                        border: 1px solid rgb(5, 34, 112);
+                        }
+                        .collapsible1 {
+                   background-color: purple;
+                   color: #444;
+                    cursor: pointer;
+                    padding: 10px;
+                     width: 10%;
+                     font:
+                    border: none;
+                    text-align: left;
+                    outline: none;
+                       font-size: 15px;
+                        }
+                        .collapsible2 {
+                   background-color: rgb(196, 75, 132);
+                   color: #444;
+                    cursor: pointer;
+                    padding: 10px;
+                     width: 10%;
+                     
+                    border: none;
+                    text-align: left;
+                    outline: none;
+                       font-size: 15px;
+}
+                        .collapsible3 {
+                   background-color: yellow;
+                   color: #444;
+                    cursor: pointer;
+                    padding: 10px;
+                     width: 10%;
+                     
+                    border: none;
+                    text-align: left;
+                    outline: none;
+                       font-size: 15px;
+                        }
+
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+                
+            </style>
+        
+        
+    <title>Portfolio.Assignment02</title>
+    </head>
+    <body>
+        
+
+        
+    <div class="jumbotron">
+            <img src="logo.png" width="200" height="150" class="center">
+            <h1>Mary McCarthy</h1>
+            <h2>Bachelor of Science in Music, Media, Performance Technology</h2>
+            
+            </div>
+                      <div class="btn-group">
+                         <div class="col-3">
+                          <a href="Assignment 2(Final).html">  <div class="button">
+                              <button>Home</button>
+                             </div>
+                              </div>
+                            </a>
+                
+                <div class="col-sm">
+                    <button id="button2">Events</button>
+                               <label>Up coming events</label>
+                               <select id = "myList" name="myList">
+                                 <option value = "1">May 2019</option>
+                                 <option value = "2">June 2019</option>
+                               </select>
+                           
+                </div>
+                <div class="col-sm">
+                    <a href="music.html"> <button id="button3">Music</button>
+                </div>
+              </a>
+                <div class="col-sm">
+                   <a href="contact.html"><button id="button4">Contact</button></a> 
+                
+                </div>
+            </div>
+        
+            <button class="collapsible1">Work Experience</button>
+            <div class="content">
+              <table style="width:65%"  bordercolor="green" >
+                                    <tr>
+                                      <th>Occupation</th>
+                                      <th>Placement</th>
+                                      <th>Length</th> 
+                                      
+                                    </tr>
+                                    <tr>
+                                      <td>DJ</td>
+                                      <td>O2 Nightclub, Gorey, Co. Wexford</td>
+                                      <td>3 years</td> 
+                                    </tr>
+                                    <tr>
+                                      <td>Shop Assistant</td>
+                                      <td>Sue Ryder Charity Shop, Arklow, Co. Wicklow</td>
+                                      <td>4 years</td> 
+                                     </tr>
+                                     <tr>
+                                        <td>Piano Teacher</td>
+                                        <td>Self Employed, Done in my home with my own Piano.</td>
+                                        <td>7 years</td>
+                                     </tr>
+                                     <tr>
+                                        <td>Child Minder</td>
+                                        <td>Askinch, Gorey, Co. Wexford</td>
+                                        <td>2 years</td>
+                                     </tr>
+                                  </table>
+                               
+                            </div>
+            </div>
+            <button class="collapsible2">Education</button>
+            <div class="content">
+              <ul>
+                                <li>Secondary School</li>
+                                <i>Colaiste Bhride, Carnew, Co. Wicklow</i>
+                                <li>University</li>
+                                <i>University of Limerick; Bachelor of science in Music, Media, Performance Technology</i>
+                                <li>Other Education</li>
+                                <i>Piano Lessons: 11 years</i>
+                                <i>Make up course: 3 months</i>
+                                <i>Music Lessons: 6 years</i>
+                              </ul>
+                              </div>
+            </div>
+            <button class="collapsible3">Projects</button>
+            <div class="content">
+              <p><ul>
+                               <li id="Dermott">Piano made with Processing 3+</li>
+                               <img src="Dermotts.png" width="200" length="100">
+                              <p style="text-align: right;"> <i>in one of our Modules this year we were asked to created a Piano using processing 3+. 
+                                This was difficult as the project had to be able to play music as well as allow you to choose which octave you wanted to play in.
+                                Eventually we were able to make it work and we were able to submit it to our lecturer.
+                               </i></p>
+            
+                             </ul>
+                             
+                              <a href="christmas" class="next">Next &raquo;</a>
+                              <li id="christmas">Random Shape Generator</li>
+                              <img src="christmas.png" width="150" length="150">
+                            <i><p style="text-align: right;">This was given to us as a final project last year. The aim of the project was to generate random shapes
+                              by clicking on them and and a colour and then placing them on the blank canvas. we had to use processing 3+ for this again. The size of the shape
+                            had to change when you pressed the up and down button as well.</p></i>
+                            <a href="Dermott" class="previous">&laquo; Previous</a>
+                              
+            </div>
+            <button onclick= random.collapsible1>Surprise me!</button>
+        <div class="row">
+            <div class="col-sm">
+            <div class="boxed">
+                <h3>About Me</h3><p id= "me">I am a 19 year old student in University of Limerick.
+                     I am currently undertaking a Bachelors of science degree 
+                in Music, Media, Performance Techonology. I have an avid interest in music and have spent the last 12 years of my life learning instruments and
+                I have taken six years of Music lessons in school and obtained an honours in my leaving cert.
+                I am going into my second year of this degree and am efficient with programs such as HTML,
+                 Ableton Live 9, CSS, JavaScript and Processing 3+. </p></div>
+                </div>
+        
+                <div class="col-sm"> 
+                    <div class="boxed2">
+                        <h3>My Course</h3><p>My BSc in Music, Media & Performance Technology will develop my technical and creative skills required to be a successful media practitioner in both the music and media industries.
+                            This programme involves both small group and individual tuition to help us to develop digital instrumental and media skills, as well as seminar, class and laboratory-based learning. 
+                            The course emphasises the principles and application of digital media practice.The aim of the programme is to equip you with degree level competence in music, media and performance technologies. 
+                            Upon my graduation in 2022, I will be capable of making a significant contribution to the continuing development and growth of the Digital Arts, the Music Technology and Media industries
+                            and more broadly across other sectors that use digital media technologies.</p></div>
+                            </div>
+                        </div>
+                    <script>
+                        var coll = document.getElementsByClassName("collapsible1");
+                        var i;
+                        
+                        for (i = 0; i < coll.length; i++) {
+                          coll[i].addEventListener("click", function() {
+                            this.classList.toggle("active");
+                            var content = this.nextElementSibling;
+                            if (content.style.display === "block") {
+                              content.style.display = "none";
+                            } else {
+                              content.style.display = "block";
+                            }
+                          });
+                        }
+                        var coll = document.getElementsByClassName("collapsible2");
+                        var i;
+                        
+                        for (i = 0; i < coll.length; i++) {
+                          coll[i].addEventListener("click", function() {
+                            this.classList.toggle("active");
+                            var content = this.nextElementSibling;
+                            if (content.style.display === "block") {
+                              content.style.display = "none";
+                            } else {
+                              content.style.display = "block";
+                            }
+                          });
+                        }
+                        var coll = document.getElementsByClassName("collapsible3");
+                        var i;
+                        for (i = 0; i < coll.length; i++) {
+                          coll[i].addEventListener("click", function() {
+                            this.classList.toggle("active");
+                            var content = this.nextElementSibling;
+                            if (content.style.display === "block") {
+                              content.style.display = "none";
+                            } else {
+                              content.style.display = "block";
+                            }
+                          });
+                        }
+                    </script>
+                    </body>
+</html>
+      

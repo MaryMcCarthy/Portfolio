@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+
+    <link href="css/custom.css" rel="stylesheet">
+
+        <style>
+                 body{
+                    background-color:lightblue;
+                
+                }
+                .jumbotron{
+                    background-color: grey;
+                }
+                .center {
+                    display: block;
+                    
+                      margin-left: auto;
+                    }
+                    .btn-group button {
+                 background-color: rgb(175, 76, 145), 197, 168); 
+                    border: 1px;
+                 color: white; 
+                 padding: 10px 24px; 
+                 cursor: pointer; 
+                float: left; 
+                    }
+                    input[type=text], select, textarea{
+                 width: 100%;
+                padding: 12px;
+                border: 1px solid rgb(54, 221, 96);
+                border-radius: 4px;
+                box-sizing: border-box;
+                resize: vertical;
+}
+                label {
+                    padding: 12px 12px 12px 0;
+                    display: inline-block;
+}
+                input[type=submit] {
+                 background-color: rgb(87, 38, 128);
+                 color: silver;
+                 padding: 12px 20px;
+                border: none;
+             border-radius: 4px;
+                cursor: pointer;
+                float: right;
+}
+            .container {
+            border-radius: 5px;
+            background-color: grey;
+            padding: 20px;
+}
+
+
+            .col-25 {
+             float: left;
+            width: 25%;
+             margin-top: 6px;
+}
+
+
+            .col-75 {
+         float: left;
+             width: 75%;
+            margin-top: 6px;
+}
+
+
+            .row:after {
+             content: "";
+             display: table;
+             clear: both;
+}
+
+
+        @media screen and (max-width: 600px) {
+         .col-25, .col-75, input[type=submit] {
+         width: 100%;
+             margin-top: 0;
+  }
+}    
+                
+                    </style>
+                    <title>contact.Assignment02</title>
+                </head>
+                <body>
+                    
+            
+                    
+                <div class="jumbotron">
+                        <img src="logo.png" width="200" height="150" class="center">
+                        <h1>Mary McCarthy</h1>
+                        <h2>Bachelor of Science in Music, Media, Performance Technology</h2>
+                </div>
+                        <div class="btn-group">
+                            <div class="col-3">
+                             <a href="Assignment 2(Final).html">  <div class="button">
+                                 <button>Home</button>
+                                </div>
+                                 </div>
+                               </a>
+                        
+                   <div class="col-sm">
+                       <button id="button2">Events</button>
+                                  <label>Up coming events</label>
+                                  <select id = "myList" name="myList">
+                                    <option value = "1">May 2019</option>
+                                    <option value = "2">June 2019</option>
+                                  </select>
+                              
+                   </div>
+                   <div class="col-sm">
+                       <a href="music.html"> <button id="button3">Music</button>
+                   </div>
+                 </a>
+                   <div class="col-sm">
+                      <a href="contact.html"><button id="button4">Contact</button></a> 
+                   
+                   </div>
+               </div>
+              <p>
+                  <i><h5><u>Facebook:</u> Mary McCarthy</h5></i>
+               <i><h5><u>Instagram:</u>Marycarolinemel</h5></i>
+               <i><h5><u>E-mail:</u>18234712@studentmail.ul.ie</h5></i>
+               <i><h5><u>Mobile Number:</u>087 232 0555</h5></i>
+               </p>
+               
+                    <div class="container">
+    <form action="action_page.php">
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">First Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Last Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="county">county</label>
+        </div>
+        <div class="col-75">
+          <select id="county" name="county">
+            <option value="Antrim">Antrim</option>
+            <option value="Armagh">Armagh</option>
+            <option value="Carlow">Carlow</option>
+            <option value="Cavan">Cavan</option>
+            <option value="Clare">Clare</option>
+            <option value="Cork">Cork</option>
+            <option value="Derry">Derry</option>
+            <option value="Donegal">Donegal</option>
+            <option value="Down">Down</option>
+            <option value="Dublin">Dublin</option>
+            <option value="Fermanagh">Fermanagh</option>
+            <option value="Galway">Galway</option>
+            <option value="Kerry">Kerry</option>
+            <option value="Kildare">Kildare</option>
+            <option value="Kilkenny">Kilkenny</option>
+            <option value="Laois">Laois</option>
+            <option value="Leitrim">Leitrim</option>
+            <option value="Limerick">Limerick</option>
+            <option value="Longford">Longford</option>
+            <option value="Louth">Louth</option>
+            <option value="Mayo">Mayo</option>
+            <option value="Meath">Meath</option>
+            <option value="Monaghan">Monaghan</option>
+            <option value="Offaly">Offaly</option>
+            <option value="Roscommon">Roscommon</option>
+            <option value="Sligo">Sligo</option>
+            <option value="Tipperary">Tipperary</option>
+            <option value="Tyrone">Tyrone</option>
+            <option value="Waterford">Waterford</option>
+            <option value="West-Meath">West-Meath</option>
+            <option value="Wexford">Wexford</option>
+            <option value="Wicklow">Wicklow</option>
+
+                  </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Subject</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+  </body>
+  </html>
